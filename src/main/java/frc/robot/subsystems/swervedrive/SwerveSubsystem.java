@@ -343,7 +343,7 @@ public class SwerveSubsystem extends SubsystemBase
                                                         yInput,
                                                         headingX,
                                                         headingY,
-                                                        (RobotBase.isReal()?-1 : 1) * -getHeading().getRadians(),
+                                                        (RobotBase.isReal()?-1 : 1) * getHeading().getRadians(),
                                                         maximumSpeed);
   }
 
